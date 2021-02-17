@@ -1,0 +1,358 @@
+:root {
+    --headerText-color: rgb(2, 2, 92);
+}
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding              : 0.4rem 3rem;
+    border               : none;
+    outline              : none;
+    letter-spacing       : 1px;
+    font-size            : 21px;
+    border-radius        : 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius   : 10px;
+    -ms-border-radius    : 10px;
+    -o-border-radius     : 10px;
+    background-color     : rgb(255, 31, 244);
+    color                : white;
+    transition           : all 0.5s ease-in-out;
+    -webkit-transition   : all 0.5s ease-in-out;
+    -moz-transition      : all 0.5s ease-in-out;
+    -ms-transition       : all 0.5s ease-in-out;
+    -o-transition        : all 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: var(--headerText-color);
+}
+
+button .fa-star {
+    transition        : all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition   : all 0.5s;
+    -ms-transition    : all 0.5s;
+    -o-transition     : all 0.5s;
+}
+
+button:hover .fa-star {
+    transform        : rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform   : rotate(180deg);
+    -ms-transform    : rotate(180deg);
+    -o-transform     : rotate(180deg);
+}
+
+.part {
+    margin: 0 auto;
+}
+
+section,
+footer {
+    margin: 6rem 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* nav */
+nav {
+    background-color: rgb(250, 218, 223);
+}
+
+nav a img {
+    width: 70px;
+}
+
+nav #navbar-a a {
+    font-size     : 20px;
+    letter-spacing: 1px;
+    margin-right  : 2rem;
+    color         : rgb(255, 0, 128);
+    font-weight   : bold;
+}
+
+/* cover */
+.head {
+    background-image   : linear-gradient(to right, rgba(250, 207, 239, 0.911), rgba(255, 255, 255, 0)), url(../img/header/header.jpg);
+    width              : 100%;
+    height             : 100vh;
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-size    : cover;
+    display            : flex;
+    justify-content    : center;
+    align-items        : center;
+    margin             : 0;
+}
+
+.head h3 {
+    background-color     : rgb(36, 87, 255);
+    display              : inline;
+    padding              : 0.2rem 0.5rem;
+    border-radius        : 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius   : 5px;
+    -ms-border-radius    : 5px;
+    -o-border-radius     : 5px;
+    color                : white;
+}
+
+.head h1 {
+    font-size  : 90px;
+    color      : var(--headerText-color);
+    font-weight: bold;
+}
+
+.head p {
+    color         : rgb(126, 1, 115);
+    font-size     : 22px;
+    width         : 55%;
+    letter-spacing: 1px;
+    font-weight   : 400;
+}
+
+
+/* about entertainment */
+.about-entertainment img {
+    width                : 90%;
+    border-radius        : 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius   : 20px;
+    -ms-border-radius    : 20px;
+    -o-border-radius     : 20px;
+}
+
+.about-entertainment .part h2 {
+    font-size  : 40px;
+    color      : var(--headerText-color);
+    font-weight: bold;
+    line-height: 2em;
+}
+
+/* cards */
+.card {
+    border-radius        : 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius   : 30px;
+    -ms-border-radius    : 30px;
+    -o-border-radius     : 30px;
+    border               : none;
+    color                : white;
+}
+
+.card img {
+    margin: 0 auto;
+}
+
+.card h5 {
+    font-size  : 30px;
+    font-weight: bold;
+}
+
+.card .card-footer {
+    background-color: white;
+    border-top      : none;
+}
+
+/* educational */
+.educational .part .img img {
+    width: 100%;
+}
+
+.educational h1,
+.educational h2 {
+    color             : var(--headerText-color);
+    font-weight       : bold;
+    line-height       : 3rem;
+    transition        : all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition   : all 0.5s;
+    -ms-transition    : all 0.5s;
+    -o-transition     : all 0.5s;
+}
+
+.educational h2:hover {
+    color: rgb(255, 128, 149);
+}
+
+/* count */
+.count {
+    background-color: rgb(31, 160, 211);
+    padding         : 5rem 0;
+    color           : white;
+    clip-path       : polygon(10% 0, 90% 0, 98% 50%, 90% 99%, 10% 100%, 2% 51%);
+}
+
+.count .num {
+    font-size: 35px;
+}
+
+.count span {
+    font-size  : 30px;
+    font-weight: 600;
+}
+
+/* gallery */
+.gallery .container-fluid {
+    display  : flex;
+    flex-wrap: wrap;
+}
+
+.gallery .img {
+    margin            : 1rem auto;
+    position          : relative;
+    transition        : all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition   : all 0.5s;
+    -ms-transition    : all 0.5s;
+    -o-transition     : all 0.5s;
+}
+
+.gallery .img img {
+    border-radius        : 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius   : 10px;
+    -ms-border-radius    : 10px;
+    -o-border-radius     : 10px;
+}
+
+.gallery .icon i {
+    display          : none;
+    color            : rgb(255, 72, 72);
+    font-size        : 40px;
+    position         : absolute;
+    top              : 50%;
+    left             : 50%;
+    transform        : translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform   : translate(-50%, -50%);
+    -ms-transform    : translate(-50%, -50%);
+    -o-transform     : translate(-50%, -50%);
+}
+
+.gallery .img:hover {
+    box-shadow       : 0px 0px 15px 5px rgb(238, 238, 238);
+    transform        : scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform   : scale(1.05);
+    -ms-transform    : scale(1.05);
+    -o-transform     : scale(1.05);
+}
+
+.gallery .img:hover .icon i {
+    display: block;
+}
+
+/* info */
+.info .part {
+    display              : flex;
+    flex-direction       : column;
+    justify-content      : center;
+    align-items          : center;
+    border-radius        : 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius   : 10px;
+    -ms-border-radius    : 10px;
+    -o-border-radius     : 10px;
+    padding              : 0.5rem;
+}
+
+.info .part h3 {
+    transition        : all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition   : all 0.5s;
+    -ms-transition    : all 0.5s;
+    -o-transition     : all 0.5s;
+}
+
+.info .part i {
+    line-height       : 6rem;
+    font-size         : 40px;
+    transition        : all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition   : all 0.5s;
+    -ms-transition    : all 0.5s;
+    -o-transition     : all 0.5s;
+}
+
+.info .part:hover i {
+    transform        : rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform   : rotate(180deg);
+    -ms-transform    : rotate(180deg);
+    -o-transform     : rotate(180deg);
+    color            : hotpink;
+}
+
+.info .part:hover h3 {
+    color: hotpink;
+}
+
+/* activity */
+.activity .part h1 {
+    color: var(--headerText-color);
+}
+
+.activity .part .topic {
+    display    : flex;
+    align-items: flex-end;
+    color      : var(--headerText-color);
+}
+
+.activity .part .topic img {
+    width: 20%;
+}
+
+.activity .part img {
+    width                : 100%;
+    border-radius        : 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius   : 10px;
+    -ms-border-radius    : 10px;
+    -o-border-radius     : 10px;
+}
+
+/* footer */
+footer h1 {
+    color: var(--headerText-color);
+}
+
+/* responsive part */
+@media(max-width:991px) {
+    .count .num {
+        margin-top: 2.5rem;
+    }
+}
+
+@media(max-width:908px) {
+    .head {
+        margin-top: 2.8rem;
+    }
+}
+
+@media(max-width:566px) {
+    .head {
+        margin-top: 3.1rem;
+    }
+
+    .head h1 {
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 390px) {
+    .head h3 {
+        font-size: 20px;
+    }
+
+    .head p {
+        width: 100%;
+    }
+}
