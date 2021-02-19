@@ -319,6 +319,64 @@ nav #navbar-a a {
     -o-border-radius     : 10px;
 }
 
+/* chart */
+.chart{
+    background-color: rgb(255, 246, 249);
+}
+.chart .container .row .part{
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.chart .container .row .part .text1 {
+    text-align: right;
+}
+.chart .container .row .part h1{
+    color: skyblue;
+}
+.chart .container .row .part h3{
+    color: var(--headerText-color);
+}
+.chart .container .row .part .img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 3px solid hotpink;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.chart .container .row .part .img img {
+    width: 100%;
+    border: 1px solid hotpink;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.chart .container .row:hover .part .img img{
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    border: 1px dotted hotpink;
+}
+.chart .container .row:hover .part .img{
+    border: 3px dotted hotpink;
+}
 /* footer */
 footer h1 {
     color: var(--headerText-color);
